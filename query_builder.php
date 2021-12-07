@@ -6,9 +6,9 @@ class QueryBuilder{
 
     function __construct(){
         $dbConfig = [
-            'dsn' => "mysql:dbname=mystamps;host=localhost;charset=UTF8",
-            'user' => "mystamps",
-            'pwd' => "mystamps12369874",
+            'dsn' => "mysql:dbname=derged;host=localhost;charset=UTF8",
+            'user' => "derged",
+            'pwd' => "derged",
         ];
         try {
             $this->pdo = new \PDO($dbConfig['dsn'], $dbConfig['user'], $dbConfig['pwd']);
